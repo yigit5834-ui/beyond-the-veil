@@ -10,6 +10,6 @@ h2 { font-size: 1.25rem; margin-top: 2rem; color: var(--accent); }
 .lead { font-size: 1.2rem; font-style: italic; color: var(--muted); }
 .muted { color: var(--muted); font-size: .9rem; }
 a { color: var(--accent); }
-.btn { display: inline-block; padding: 10px 18px; border: 1px solid var(--accent); border-radius: 6px; text-decoration: none; }
+.btn { display: inline-flex; align-items: center; gap: 10px; padding: 10px 18px; border: 1px solid var(--accent); border-radius: 6px; text-decoration: none; }
 footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid rgba(128,128,128,.3); font-size: .9rem; color: var(--muted); }
 ul { padding-left: 1.2rem; }
